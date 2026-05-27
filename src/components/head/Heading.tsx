@@ -1,13 +1,14 @@
+import { Clock } from 'lucide-react'
 import styles from './Heading.module.css'
 
-type HeadingProps = {
-    conteudo: string
-    conteudo2: string
-}
-
-function Heading({conteudo, conteudo2}:HeadingProps){
+function Heading(){
     return (
-    <div className={styles.title}>{conteudo} - {conteudo2}</div>
+    <div className={styles.head}>
+        <div className={styles.clockIcon}>
+            <Clock className={styles.icon} />
+        </div>
+        <h1 className={styles.title}>Chronos</h1>
+    </div>
     )
 }
 

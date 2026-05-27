@@ -1,0 +1,12 @@
+.btnHolder{
+    border: 1px solid red;
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
