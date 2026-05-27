@@ -1,10 +1,10 @@
-import styles from './App.module.css'
+import Heading from './components/head/Heading.tsx'
 
 function App() {
 
   return (
     <>
-    <h1>Chronos Pomodoro</h1>
+    <Heading conteudo="Aqui vai um texto" conteudo2="Aqui vai um texto 2"/>
     </>
   )
 }
