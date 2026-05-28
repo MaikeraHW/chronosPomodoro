@@ -1,17 +1,15 @@
-import ButtonsHolder from './components/buttons/buttonsHolder/ButtonsHolder.tsx'
-import Clock from './components/clock/Clock.tsx'
-import Form from './components/form/Form.tsx'
-import Heading from './components/head/Heading.tsx'
-import Container from './layouts/Container.tsx'
+import ButtonsHolder from "./components/buttons/buttonsHolder/ButtonsHolder"
+import Heading from "./components/head/Heading"
+import Container from "./layouts/Container"
+import Home from "./pages/home/Home"
 
 function App() {
 
   return (
     <Container>
-    <Heading />
-    <ButtonsHolder />
-    <Clock />
-    <Form />
+      <Heading />
+      <ButtonsHolder />
+      <Home />
     </Container>
   )
 }

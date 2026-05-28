@@ -7,33 +7,3 @@
     padding: 1rem;
     border: 1px solid red;
 }
-
-.taskInput{
-    min-width: 20rem;
-    background-color: transparent;
-    text-align: center;
-    font-size: 1.2rem;
-    color: var(--text-default);
-    padding: 0.4rem 1rem;
-    border-top: 4px solid transparent;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-bottom: 4px solid var(--primary);
-    border-radius: 8px;
-    transition: all 0.1s ease-in-out;
-}
-
-.taskInput:focus{
-    outline: transparent;
-    border-top: 4px solid var(--primary);
-    border-left: 4px solid var(--primary);
-    border-right: 4px solid var(--primary);
-}
-
-.taskInput::placeholder{
-    color: var(--disabled)
-}
-
-.nextTask{
-    font-size: 1.2rem;
-}

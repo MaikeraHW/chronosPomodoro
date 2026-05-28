@@ -1,11 +1,11 @@
+import DefaultInput from '../defaultInput/DefaultInput'
 import styles from './Form.module.css'
 
 function Form(){
 
     return(
         <section className={styles.formSection}>
-            <h2 className={styles.currentTask}>Current task</h2>
-            <input type="text" placeholder="Digite aqui" className={styles.taskInput} />
+            <DefaultInput type='text' labelTxt='labelTxt'/>
             <p className={styles.nextTask}>A próxima tarefa é:</p>
         </section>
     )
