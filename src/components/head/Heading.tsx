@@ -4,10 +4,12 @@ import styles from './Heading.module.css'
 function Heading(){
     return (
     <div className={styles.head}>
+        <a href="#" className={styles.link}>
         <div className={styles.clockIcon}>
             <Clock className={styles.icon} />
         </div>
         <h1 className={styles.title}>Chronos</h1>
+        </a>
     </div>
     )
 }
