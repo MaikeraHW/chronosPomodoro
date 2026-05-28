@@ -8,11 +8,18 @@ type AvailableThemes = 'dark' | 'light'
 
 function ButtonsHolder(){
 
-    const [theme, setTheme] = useState<AvailableThemes>('dark')
+    const [theme, setTheme] = useState<AvailableThemes>(() => {
+        const savedTheme = localStorage.getItem('theme')
+
+        return savedTheme === 'dark' ? 'dark' : 'light'
+    })
 
     function handleChangeTheme(){
 
-        theme === 'dark' ? setTheme('light') : setTheme('dark')
+        const newTheme = theme === 'dark' ? 'light' : 'dark'
+
+        setTheme(newTheme)
+        localStorage.setItem('theme', newTheme)
     }
 
     useEffect( () => {
