@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 1rem;
+    gap: 1.3rem;
+    padding: 0.5rem;
 }
 
 .nextTask, .cicleCounter{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .circleHolder{

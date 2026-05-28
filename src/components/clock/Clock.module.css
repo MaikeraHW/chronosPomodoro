@@ -1,9 +1,9 @@
 .clockSection{
     font-weight: 600;
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
 }
 
 .clock{
-        font-size: clamp(2rem, 25dvw, 12rem);
+        font-size: clamp(2rem, 25dvw, 10rem);
 }

@@ -1,9 +1,8 @@
 import styles from './DefaultInput.module.css'
 
 type DefaulInputProps = {
-    type: string
     labelTxt: string
-}
+} & React.ComponentProps<'input'>
 
 function DefaultInput({type, labelTxt}:DefaulInputProps){
     return (

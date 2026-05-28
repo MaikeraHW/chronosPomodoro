@@ -1,0 +1,21 @@
+.formButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    padding: .8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.formButtonGreen{
+    background-color: var(--primary);
+}
+
+.formButtonRed{
+    color: white;
+    background-color: var(--error);
+}

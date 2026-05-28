@@ -8,7 +8,7 @@ type ButtonProps ={
 function Button({icon: Icon }:ButtonProps){
 
     return (
-        <a className={styles.btn}><Icon size={40}/></a>
+        <a className={styles.btn}><Icon size={32}/></a>
     )
 }
 
