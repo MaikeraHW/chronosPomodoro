@@ -6,10 +6,10 @@ function ButtonsHolder(){
 
     return (
         <div className={styles.btnHolder}>
-            <Button icon={ <HomeIcon /> }/>
-            <Button icon={ <History /> }/>
-            <Button icon={ <Settings /> }/>
-            <Button icon={ <Sun /> }/>
+            <Button icon={HomeIcon}/>
+            <Button icon={History}/>
+            <Button icon={Settings}/>
+            <Button icon={Sun}/>
         </div>
     )
 }

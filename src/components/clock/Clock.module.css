@@ -1,0 +1,10 @@
+.clockSection{
+    width: 40%;
+    min-width: 45rem;
+    margin: auto;
+    font-size: 12rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0;
+    border: 1px solid red;
+}

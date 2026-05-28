@@ -1,13 +1,14 @@
+import type { LucideIcon } from 'lucide-react'
 import styles from './Button.module.css'
 
 type ButtonProps ={
-    icon: React.ReactNode
+    icon: LucideIcon
 }
 
-function Button({icon}:ButtonProps){
+function Button({icon: Icon }:ButtonProps){
 
     return (
-        <button className={styles.btn}>{icon}</button>
+        <button className={styles.btn}><Icon size={40}/></button>
     )
 }
 
