@@ -4,7 +4,7 @@ function Clock(){
 
     return (
         <section className={styles.clockSection}>
-            00:00
+            <p className={styles.clock}>00:00</p>
         </section>
     )
 }

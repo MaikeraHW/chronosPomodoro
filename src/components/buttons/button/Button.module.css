@@ -1,5 +1,6 @@
 .btn{
     background-color: var(--primary);
+    color: var(--text-over-primary);
     border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
     padding: 0.7rem;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover{
