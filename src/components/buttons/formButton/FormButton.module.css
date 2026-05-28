@@ -9,6 +9,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    transition: all 0.2s ease-in-out;
 }
 
 .formButtonGreen{
@@ -18,4 +19,8 @@
 .formButtonRed{
     color: white;
     background-color: var(--error);
+}
+
+.formButton:hover{
+    filter: brightness(80%);
 }
