@@ -1,0 +1,17 @@
+.circleSize{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.circleGreen{
+    background-color: var(--primary);
+}
+
+.circleYellow{
+    background-color: var(--warning);
+}
+
+.circleBlue{
+    background-color: var(--info);
+}
