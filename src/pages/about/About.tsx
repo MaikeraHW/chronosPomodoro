@@ -1,5 +1,3 @@
-import Clock from "../../components/clock/Clock";
-import Form from "../../components/form/Form";
 import GenericHtml from "../../components/genericHtml/GenericHtml";
 import Container from "../../layouts/Container";
 
