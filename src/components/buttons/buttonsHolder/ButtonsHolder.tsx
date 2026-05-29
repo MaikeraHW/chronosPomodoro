@@ -1,4 +1,4 @@
-import { HomeIcon, History, Settings, Sun } from 'lucide-react'
+import { HomeIcon, History, Settings, Sun, Moon } from 'lucide-react'
 import Button from '../button/Button'
 import styles from './ButtonsHolder.module.css'
 import { useEffect, useState } from 'react'
@@ -32,7 +32,7 @@ function ButtonsHolder(){
             <Button icon={HomeIcon} title="Ir para a Home"/>
             <Button icon={History} title="Ver histórico"/>
             <Button icon={Settings} title="Configurações"/>
-            <Button icon={Sun} title="Mudar Tema" onClick={handleChangeTheme}/>
+            <Button icon={theme === 'dark' ? Sun : Moon } title="Mudar Tema" onClick={handleChangeTheme}/>
         </div>
     )
 }

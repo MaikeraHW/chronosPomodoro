@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: 'Poppins', Sans-serif;
 }
 
@@ -44,9 +43,6 @@
   --text-disabled: #aab3cc;
 }
 
-html{
-  font-size: 62,5%;
-}
 
 body {
   background-color: var(--gray-900);
